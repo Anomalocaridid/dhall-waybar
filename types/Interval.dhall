@@ -1,0 +1,1 @@
+< once | Int : Natural >
