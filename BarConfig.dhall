@@ -18,6 +18,8 @@ in  { Type =
         , exclusive : Optional Bool
         , passthrough : Optional Bool
         , gtk-layer-shell : Optional Bool
+        , ipc : Optional Bool
+        , id : Optional Text
         , include : Optional types.StringOrArray
         }
     , default =
@@ -38,6 +40,8 @@ in  { Type =
       , exclusive = None Bool
       , passthrough = None Bool
       , gtk-layer-shell = None Bool
+      , ipc = None Bool
+      , id = None Text
       , include = None types.StringOrArray
       }
     }
