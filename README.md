@@ -1,2 +1,2 @@
 # dhall-waybar
-Dhall-based configuration framework for waybar
+Dhall bindings for [waybar](https://github.com/Alexays/Waybar)
